@@ -1,44 +1,114 @@
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "møbler.com",
-  "url": "https://møbler.com",
-  "description": "Norges mest komplette møbelguide med kjøpsguider, butikkoversikt og vedlikeholdstips.",
-  "inLanguage": "nb",
-  "publisher": {
-    "@type": "Organization",
-    "name": "møbler.com",
-    "url": "https://møbler.com"
-  },
-  "about": [
-    { "@type": "Thing", "name": "Møbler", "description": "Norske møbler og interiør" },
-    { "@type": "Thing", "name": "Sofa", "description": "Sofaer og loungemøbler" },
-    { "@type": "Thing", "name": "Seng", "description": "Senger og madrasser" },
-    { "@type": "Thing", "name": "Spisebord", "description": "Spisebord og kjøkkenbord" },
-    { "@type": "Thing", "name": "Skandinavisk design", "description": "Nordisk møbeldesign" },
-    { "@type": "Thing", "name": "Møbelbutikker i Norge", "description": "Oversikt over 380+ møbelforhandlere" }
-  ],
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "ItemList",
-      "name": "Kjøpsguider",
-      "numberOfItems": 6,
-      "itemListElement": [
-        { "@type": "Article", "name": "Beste sofa 2026", "url": "https://møbler.com/guide/beste-sofa/" },
-        { "@type": "Article", "name": "Beste seng 2026", "url": "https://møbler.com/guide/beste-seng/" },
-        { "@type": "Article", "name": "Beste spisebord 2026", "url": "https://møbler.com/guide/beste-spisebord/" },
-        { "@type": "Article", "name": "Møbelkjeder i Norge", "url": "https://møbler.com/guide/mobelkjeder-norge-oversikt/" }
-      ]
+      "@type": "WebSite",
+      "@id": "https://xn--mbler-gra.com/#website",
+      "name": "møbler.com",
+      "alternateName": "Møbler.com",
+      "url": "https://xn--mbler-gra.com",
+      "description": "Norges mest komplette møbelguide med uavhengige kjøpsguider, oversikt over 380+ møbelbutikker i 140 kommuner, vedlikeholdstips og inspirasjon.",
+      "inLanguage": "nb",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://xn--mbler-gra.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://xn--mbler-gra.com/mobelbutikker/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     },
     {
-      "@type": "ItemList",
-      "name": "Møbelbutikker etter by",
-      "numberOfItems": 20,
-      "itemListElement": [
-        { "@type": "City", "name": "Oslo", "url": "https://møbler.com/mobelbutikker/oslo/" },
-        { "@type": "City", "name": "Bergen", "url": "https://møbler.com/mobelbutikker/bergen/" },
-        { "@type": "City", "name": "Stavanger", "url": "https://møbler.com/mobelbutikker/stavanger/" },
-        { "@type": "City", "name": "Trondheim", "url": "https://møbler.com/mobelbutikker/trondheim/" }
+      "@type": "Organization",
+      "@id": "https://xn--mbler-gra.com/#organization",
+      "name": "møbler.com",
+      "url": "https://xn--mbler-gra.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://xn--mbler-gra.com/android-chrome-512x512.png",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": "Norwegian"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://xn--mbler-gra.com/guide/#collection",
+      "name": "Kjøpsguider for møbler",
+      "description": "Uavhengige kjøpsguider for sofa, seng, spisebord og mer.",
+      "url": "https://xn--mbler-gra.com/guide/",
+      "isPartOf": { "@id": "https://xn--mbler-gra.com/#website" },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Kjøpsguider",
+        "numberOfItems": 6,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Beste sofa 2026", "url": "https://xn--mbler-gra.com/guide/beste-sofa/" },
+          { "@type": "ListItem", "position": 2, "name": "Beste seng 2026", "url": "https://xn--mbler-gra.com/guide/beste-seng/" },
+          { "@type": "ListItem", "position": 3, "name": "Beste spisebord 2026", "url": "https://xn--mbler-gra.com/guide/beste-spisebord/" },
+          { "@type": "ListItem", "position": 4, "name": "Beste bokhylle 2026", "url": "https://xn--mbler-gra.com/guide/beste-bokhylle/" },
+          { "@type": "ListItem", "position": 5, "name": "Beste skrivebord 2026", "url": "https://xn--mbler-gra.com/guide/beste-skrivebord/" },
+          { "@type": "ListItem", "position": 6, "name": "Møbelkjeder i Norge", "url": "https://xn--mbler-gra.com/guide/mobelkjeder-norge-oversikt/" }
+        ]
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://xn--mbler-gra.com/mobelbutikker/#collection",
+      "name": "Møbelbutikker i Norge",
+      "description": "Komplett database over 380+ møbelbutikker i 140 norske kommuner.",
+      "url": "https://xn--mbler-gra.com/mobelbutikker/",
+      "isPartOf": { "@id": "https://xn--mbler-gra.com/#website" },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Møbelbutikker etter by",
+        "numberOfItems": 20,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Møbelbutikker i Oslo", "url": "https://xn--mbler-gra.com/mobelbutikker/oslo/", "item": { "@type": "City", "name": "Oslo" } },
+          { "@type": "ListItem", "position": 2, "name": "Møbelbutikker i Bergen", "url": "https://xn--mbler-gra.com/mobelbutikker/bergen/", "item": { "@type": "City", "name": "Bergen" } },
+          { "@type": "ListItem", "position": 3, "name": "Møbelbutikker i Stavanger", "url": "https://xn--mbler-gra.com/mobelbutikker/stavanger/", "item": { "@type": "City", "name": "Stavanger" } },
+          { "@type": "ListItem", "position": 4, "name": "Møbelbutikker i Trondheim", "url": "https://xn--mbler-gra.com/mobelbutikker/trondheim/", "item": { "@type": "City", "name": "Trondheim" } },
+          { "@type": "ListItem", "position": 5, "name": "Møbelbutikker i Tønsberg", "url": "https://xn--mbler-gra.com/mobelbutikker/tonsberg/", "item": { "@type": "City", "name": "Tønsberg" } }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://xn--mbler-gra.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hva koster en god sofa i Norge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En god sofa i Norge koster typisk mellom 10 000 og 30 000 kroner. Under 10 000 kr finner du grunnleggende sofaer fra IKEA og JYSK. Mellom 10 000–30 000 kr ligger best value fra Bohus, Skeidar og Møbelringen. Over 30 000 kr er premium med Bolia, Slettvoll og LK Hjelle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvilke er de største møbelkjedene i Norge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De største møbelkjedene i Norge er IKEA (størst omsetning), Bohus, Skeidar, Møbelringen, Bolia og Slettvoll. I tillegg finnes JYSK, A-Møbler og nettbutikker som Sweef."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor mange møbelbutikker finnes i Norge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Per 2026 er det over 380 registrerte møbelbutikker i Norge fordelt på 140 kommuner, ifølge Enhetsregisteret i Brønnøysund."
+          }
+        }
       ]
     }
   ]

@@ -1,0 +1,89 @@
+# møbler.com — Komplett innholdsindex
+
+> Norges mest komplette møbelguide. 380+ butikker, 140 kommuner, uavhengige kjøpsguider og vedlikeholdstips.
+
+## Detaljert innhold
+
+### Kjøpsguide: Beste sofa 2026
+URL: https://møbler.com/guide/beste-sofa/
+Oppdatert: 2026-03-10
+Lesetid: 12 minutter
+
+Komplett guide til å velge sofa i Norge. Dekker:
+- Størrelse og plassering: 2-seter (150–180 cm), 3-seter (200–240 cm), hjørnesofa (250–300+ cm), sjesesofa
+- Materialer: Stoff (bomull, polyester, lin, velour, mikrofiber), skinn, kunstskinn (PU-skinn)
+- Komfort: HR-skum, fjærpolstring, sittedybde (standard 55 cm), sittehøyde (42–47 cm)
+- Ramme: Hardtre (bøk, eik, bjørk), noskag-fjærer vs elastiske stropper
+- Prisklasser i Norge: Under 10 000 kr (IKEA, JYSK), 10 000–30 000 kr (Bohus, Skeidar, Møbelringen), over 30 000 kr (Bolia, Slettvoll, LK Hjelle, Stordal)
+- Vedlikehold: Snu puter annenhver uke, støvsug månedlig, impregner stoff
+- Levetid: 10–15 år med riktig vedlikehold
+
+FAQ:
+- Hva koster en god sofa i Norge? 10 000–30 000 kr for god kvalitet.
+- Beste materiale for familier? Mikrofiber og blandingsstoffer.
+- Hvor lenge bør en sofa vare? 10–15 år med vedlikehold.
+
+### Kjøpsguide: Beste seng 2026
+URL: https://møbler.com/guide/beste-seng/
+Dekker sengtyper, madrasser, størrelser fra 120 til 200x200 cm.
+
+### Kjøpsguide: Beste spisebord 2026
+URL: https://møbler.com/guide/beste-spisebord/
+Materialer: eik, valnøtt, marmor, keramikk. Størrelse og form.
+
+### Kjøpsguide: Beste bokhylle 2026
+URL: https://møbler.com/guide/beste-bokhylle/
+Oppbevaring med stil. Materialer og plasseringstips.
+
+### Kjøpsguide: Beste skrivebord 2026
+URL: https://møbler.com/guide/beste-skrivebord/
+Hjemmekontor og kontor. Hev-senk, ergonomi.
+
+### Møbelkjeder i Norge — Komplett oversikt 2026
+URL: https://møbler.com/guide/mobelkjeder-norge-oversikt/
+Alle møbelkjeder: IKEA, Bohus, Skeidar, Møbelringen, Bolia, Slettvoll, JYSK, A-Møbler, Sweef, Trademax.
+
+### Artikkel: Hvordan rense sofa
+URL: https://møbler.com/artikler/hvordan-rense-sofa/
+Guide for stoff, skinn, mikrofiber og fløyel.
+
+### Artikkel: Fjerne kattepisslukt fra sofa
+URL: https://møbler.com/artikler/hvordan-fjerne-kattepisslukt-fra-sofa/
+Eddik, natron, enzymatiske midler. Metoder som faktisk fungerer.
+
+### Artikkel: Hvordan vaske sofa
+URL: https://møbler.com/artikler/hvordan-vaske-sofa/
+Trinn-for-trinn for alle stofftyper.
+
+### Artikkel: Male IKEA-møbler
+URL: https://møbler.com/artikler/hvordan-male-ikea-mobler/
+Forberedelse, primer og maling for laminat og tre.
+
+### Artikkel: Plassere teppe under sofa
+URL: https://møbler.com/artikler/hvordan-plassere-teppe-under-sofa/
+Regler for størrelse, plassering og proporsjoner.
+
+### Artikkel: Skandinavisk design guide
+URL: https://møbler.com/artikler/skandinavisk-design-guide/
+Historien, prinsippene og hvordan innrede i nordisk stil.
+
+## Butikkdatabase — Nøkkeltall
+
+Totalt: 380+ butikker i 140 kommuner.
+Datakilde: Enhetsregisteret i Brønnøysund, NACE 47.551.
+
+Største butikker etter ansatte (utvalg):
+- JYSK AS: 1215 ansatte (Oslo)
+- Bohus Butikkdrift AS: 1102 ansatte (Oslo)
+- IKEA AS: 2907 ansatte (Asker)
+- Illums Bolighus Norge AS: 214 ansatte (Oslo)
+- Bolia: 121 ansatte (Oslo)
+
+Byer med flest butikker: Oslo (51), Bergen (15), Stavanger (13), Trondheim (12), Tønsberg (11), Bærum (10), Kristiansand (9), Drammen (9).
+
+## Teknisk informasjon
+- Rammeverk: Next.js 15 med statisk eksport
+- Hosting: Vercel
+- Domene: møbler.com (punycode: xn--mbler-gra.com)
+- Datasource: Enhetsregisteret via Brønnøysund
+- Oppdateringsfrekvens: Månedlig for butikkdata, ukentlig for redaksjonelt innhold

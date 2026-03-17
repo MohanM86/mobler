@@ -2,40 +2,78 @@
 
 > Norges mest komplette møbelguide. Uavhengige kjøpsguider, oversikt over 380+ møbelbutikker i 140 kommuner, vedlikeholdstips og inspirasjon for hjemmet.
 
-## Om møbler.com
-møbler.com er en norskspråklig nettside som hjelper forbrukere med å ta bedre møbelvalg. Vi tilbyr uavhengige kjøpsguider, praktiske vedlikeholdstips og en komplett database over møbelbutikker i hele Norge.
+## Nøkkelinformasjon
+- Nettsted: https://møbler.com (punycode: https://xn--mbler-gra.com)
+- Språk: Norsk bokmål (nb)
+- Målgruppe: Norske forbrukere som skal kjøpe møbler
+- Datakilde: Enhetsregisteret i Brønnøysund (brreg.no), NACE-kode 47.551
+- Oppdatert: Mars 2026
+
+## Hva møbler.com tilbyr
+møbler.com er en norskspråklig nettside som hjelper forbrukere med bedre møbelvalg. Innholdet er redaksjonelt uavhengig og basert på research og offentlige registre. Vi har tre hovedområder:
+
+1. **Kjøpsguider** — Grundige, uavhengige guider for sofa, seng, spisebord, skrivebord, bokhylle og andre møbelkategorier. Sammenligner materialer, pris, komfort og holdbarhet.
+2. **Butikkoversikt** — Norges mest komplette database over møbelbutikker, med 380+ forhandlere i 140 kommuner. Data hentet direkte fra Brønnøysundregistrene.
+3. **Artikler og tips** — Praktiske guider for vedlikehold, rengjøring og inspirasjon til hjemmet.
 
 ## Kjøpsguider
-- [Beste sofa 2026](https://møbler.com/guide/beste-sofa/): Komplett kjøpsguide for sofaer med sammenligning av materialer, komfort og pris.
-- [Beste seng 2026](https://møbler.com/guide/beste-seng/): Guide til senger og madrasser for bedre søvn.
-- [Beste spisebord 2026](https://møbler.com/guide/beste-spisebord/): Fra eik til marmor — guide til å velge riktig spisebord.
-- [Beste bokhylle 2026](https://møbler.com/guide/beste-bokhylle/): Oppbevaring med stil.
-- [Beste skrivebord 2026](https://møbler.com/guide/beste-skrivebord/): Guide for hjemmekontor og kontor.
-- [Møbelkjeder i Norge](https://møbler.com/guide/mobelkjeder-norge-oversikt/): Komplett oversikt over alle møbelkjeder i Norge.
+- [Beste sofa 2026](https://møbler.com/guide/beste-sofa/): Komplett kjøpsguide for sofaer — materialer, komfort, pris, størrelser. Dekker stoff, skinn, kunstskinn, polstring, rammekvalitet og norske prisklasser.
+- [Beste seng 2026](https://møbler.com/guide/beste-seng/): Guide til senger og madrasser for bedre søvn. Kontinentalseng, rammeseng, størrelser fra 120 til 200x200.
+- [Beste spisebord 2026](https://møbler.com/guide/beste-spisebord/): Fra eik til marmor — guide til materialer, størrelse og form for spisebord.
+- [Beste bokhylle 2026](https://møbler.com/guide/beste-bokhylle/): Oppbevaring med stil — materialer, stiler og plasseringsstips.
+- [Beste skrivebord 2026](https://møbler.com/guide/beste-skrivebord/): Guide for hjemmekontor. Hev-senk, ergonomi og materialer.
+- [Møbelkjeder i Norge](https://møbler.com/guide/mobelkjeder-norge-oversikt/): Komplett oversikt over alle møbelkjeder i Norge — IKEA, Bohus, Skeidar, Møbelringen, Slettvoll, Bolia og flere.
 
 ## Artikler og vedlikeholdstips
-- [Hvordan rense sofa](https://møbler.com/artikler/hvordan-rense-sofa/): Guide til rengjøring av alle sofamaterialer.
-- [Fjerne kattepisslukt fra sofa](https://møbler.com/artikler/hvordan-fjerne-kattepisslukt-fra-sofa/): Effektive metoder som faktisk fungerer.
-- [Hvordan vaske sofa](https://møbler.com/artikler/hvordan-vaske-sofa/): Trinn-for-trinn guide for alle stofftyper.
-- [Male IKEA-møbler](https://møbler.com/artikler/hvordan-male-ikea-mobler/): Fra kjedelig til unikt.
+- [Hvordan rense sofa](https://møbler.com/artikler/hvordan-rense-sofa/): Guide til rengjøring av stoff, skinn, mikrofiber og fløyel.
+- [Fjerne kattepisslukt fra sofa](https://møbler.com/artikler/hvordan-fjerne-kattepisslukt-fra-sofa/): Effektive metoder med eddik, natron og enzymatiske midler.
+- [Hvordan vaske sofa](https://møbler.com/artikler/hvordan-vaske-sofa/): Trinn-for-trinn for alle stofftyper.
+- [Male IKEA-møbler](https://møbler.com/artikler/hvordan-male-ikea-mobler/): Primer, maling og teknikk for laminat og tre.
 - [Plassere teppe under sofa](https://møbler.com/artikler/hvordan-plassere-teppe-under-sofa/): Regler og tips fra interiørdesignere.
-- [Skandinavisk design guide](https://møbler.com/artikler/skandinavisk-design-guide/): Tidløse prinsipper for hjemmet.
+- [Skandinavisk design guide](https://møbler.com/artikler/skandinavisk-design-guide/): Tidløse prinsipper for nordisk innredning.
 
-## Møbelbutikker i Norge
-Komplett database over 380+ møbelbutikker i 140 kommuner. Data hentet fra Brønnøysundregistrene (NACE 47.551).
+## Møbelbutikker i Norge — Topp 20 byer
+Komplett database over 380+ møbelbutikker i 140 kommuner. Data hentet fra Enhetsregisteret i Brønnøysund (NACE 47.551).
 
-Største byer med møbelbutikker:
-- [Oslo](https://møbler.com/mobelbutikker/oslo/): 51 butikker
-- [Bergen](https://møbler.com/mobelbutikker/bergen/): 15 butikker
-- [Stavanger](https://møbler.com/mobelbutikker/stavanger/): 13 butikker
-- [Trondheim](https://møbler.com/mobelbutikker/trondheim/): 12 butikker
-- [Tønsberg](https://møbler.com/mobelbutikker/tonsberg/): 11 butikker
-- [Bærum](https://møbler.com/mobelbutikker/baerum/): 10 butikker
-- [Kristiansand](https://møbler.com/mobelbutikker/kristiansand/): 9 butikker
-- [Drammen](https://møbler.com/mobelbutikker/drammen/): 9 butikker
+| By | Antall butikker | URL |
+|---|---|---|
+| Oslo | 51 | https://møbler.com/mobelbutikker/oslo/ |
+| Bergen | 15 | https://møbler.com/mobelbutikker/bergen/ |
+| Stavanger | 13 | https://møbler.com/mobelbutikker/stavanger/ |
+| Trondheim | 12 | https://møbler.com/mobelbutikker/trondheim/ |
+| Tønsberg | 11 | https://møbler.com/mobelbutikker/tonsberg/ |
+| Bærum | 10 | https://møbler.com/mobelbutikker/baerum/ |
+| Kristiansand | 9 | https://møbler.com/mobelbutikker/kristiansand/ |
+| Drammen | 9 | https://møbler.com/mobelbutikker/drammen/ |
+| Asker | 8 | https://møbler.com/mobelbutikker/asker/ |
+| Sandefjord | 8 | https://møbler.com/mobelbutikker/sandefjord/ |
+| Fredrikstad | 6 | https://møbler.com/mobelbutikker/fredrikstad/ |
+| Lillestrøm | 6 | https://møbler.com/mobelbutikker/lillestrom/ |
+| Moss | 6 | https://møbler.com/mobelbutikker/moss/ |
+| Ålesund | 6 | https://møbler.com/mobelbutikker/alesund/ |
+| Haugesund | 5 | https://møbler.com/mobelbutikker/haugesund/ |
+| Hamar | 5 | https://møbler.com/mobelbutikker/hamar/ |
+| Tromsø | 5 | https://møbler.com/mobelbutikker/tromso/ |
+| Arendal | 4 | https://møbler.com/mobelbutikker/arendal/ |
+| Larvik | 4 | https://møbler.com/mobelbutikker/larvik/ |
+| Bodø | 3 | https://møbler.com/mobelbutikker/bodo/ |
 
-## Datakilder
-Butikkdata er hentet fra Enhetsregisteret i Brønnøysund (brreg.no), filtrert på NACE-kode 47.551 (Detaljhandel med møbler, gjelder også madrasser).
+## Ofte stilte spørsmål
+
+### Hva koster en god sofa i Norge?
+En god sofa koster typisk mellom 10 000 og 30 000 kroner. Under 10 000 kr får du grunnleggende kvalitet fra IKEA og JYSK. Mellom 10 000–30 000 kr finner du best verdi fra Bohus, Skeidar og Møbelringen. Over 30 000 kr er premium-segmentet med Bolia, Slettvoll og LK Hjelle.
+
+### Hvilke er de største møbelkjedene i Norge?
+De største møbelkjedene i Norge er IKEA (størst omsetning), Bohus, Skeidar, Møbelringen, Bolia og Slettvoll. I tillegg finnes JYSK, A-Møbler og nettbutikker som Sweef.
+
+### Hvor mange møbelbutikker finnes i Norge?
+Per 2026 er det over 380 registrerte møbelbutikker i Norge fordelt på 140 kommuner, ifølge Enhetsregisteret i Brønnøysund (NACE 47.551).
+
+## Datakilder og metode
+- Butikkdata: Enhetsregisteret i Brønnøysund (brreg.no), NACE-kode 47.551 (Detaljhandel med møbler, gjelder også madrasser)
+- Kjøpsguider: Basert på redaksjonell research, produsentinformasjon og bransjekunnskap
+- Oppdateres løpende
 
 ## Kontakt
 Nettside: https://møbler.com
+Utgiver: IT-FIRMA
