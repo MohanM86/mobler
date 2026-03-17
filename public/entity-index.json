@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "møbler.com",
+  "url": "https://møbler.com",
+  "description": "Norges mest komplette møbelguide med kjøpsguider, butikkoversikt og vedlikeholdstips.",
+  "inLanguage": "nb",
+  "publisher": {
+    "@type": "Organization",
+    "name": "møbler.com",
+    "url": "https://møbler.com"
+  },
+  "about": [
+    { "@type": "Thing", "name": "Møbler", "description": "Norske møbler og interiør" },
+    { "@type": "Thing", "name": "Sofa", "description": "Sofaer og loungemøbler" },
+    { "@type": "Thing", "name": "Seng", "description": "Senger og madrasser" },
+    { "@type": "Thing", "name": "Spisebord", "description": "Spisebord og kjøkkenbord" },
+    { "@type": "Thing", "name": "Skandinavisk design", "description": "Nordisk møbeldesign" },
+    { "@type": "Thing", "name": "Møbelbutikker i Norge", "description": "Oversikt over 380+ møbelforhandlere" }
+  ],
+  "mainEntity": [
+    {
+      "@type": "ItemList",
+      "name": "Kjøpsguider",
+      "numberOfItems": 6,
+      "itemListElement": [
+        { "@type": "Article", "name": "Beste sofa 2026", "url": "https://møbler.com/guide/beste-sofa/" },
+        { "@type": "Article", "name": "Beste seng 2026", "url": "https://møbler.com/guide/beste-seng/" },
+        { "@type": "Article", "name": "Beste spisebord 2026", "url": "https://møbler.com/guide/beste-spisebord/" },
+        { "@type": "Article", "name": "Møbelkjeder i Norge", "url": "https://møbler.com/guide/mobelkjeder-norge-oversikt/" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Møbelbutikker etter by",
+      "numberOfItems": 20,
+      "itemListElement": [
+        { "@type": "City", "name": "Oslo", "url": "https://møbler.com/mobelbutikker/oslo/" },
+        { "@type": "City", "name": "Bergen", "url": "https://møbler.com/mobelbutikker/bergen/" },
+        { "@type": "City", "name": "Stavanger", "url": "https://møbler.com/mobelbutikker/stavanger/" },
+        { "@type": "City", "name": "Trondheim", "url": "https://møbler.com/mobelbutikker/trondheim/" }
+      ]
+    }
+  ]
+}

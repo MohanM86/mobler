@@ -1,0 +1,41 @@
+# møbler.com
+
+> Norges mest komplette møbelguide. Uavhengige kjøpsguider, oversikt over 380+ møbelbutikker i 140 kommuner, vedlikeholdstips og inspirasjon for hjemmet.
+
+## Om møbler.com
+møbler.com er en norskspråklig nettside som hjelper forbrukere med å ta bedre møbelvalg. Vi tilbyr uavhengige kjøpsguider, praktiske vedlikeholdstips og en komplett database over møbelbutikker i hele Norge.
+
+## Kjøpsguider
+- [Beste sofa 2026](https://møbler.com/guide/beste-sofa/): Komplett kjøpsguide for sofaer med sammenligning av materialer, komfort og pris.
+- [Beste seng 2026](https://møbler.com/guide/beste-seng/): Guide til senger og madrasser for bedre søvn.
+- [Beste spisebord 2026](https://møbler.com/guide/beste-spisebord/): Fra eik til marmor — guide til å velge riktig spisebord.
+- [Beste bokhylle 2026](https://møbler.com/guide/beste-bokhylle/): Oppbevaring med stil.
+- [Beste skrivebord 2026](https://møbler.com/guide/beste-skrivebord/): Guide for hjemmekontor og kontor.
+- [Møbelkjeder i Norge](https://møbler.com/guide/mobelkjeder-norge-oversikt/): Komplett oversikt over alle møbelkjeder i Norge.
+
+## Artikler og vedlikeholdstips
+- [Hvordan rense sofa](https://møbler.com/artikler/hvordan-rense-sofa/): Guide til rengjøring av alle sofamaterialer.
+- [Fjerne kattepisslukt fra sofa](https://møbler.com/artikler/hvordan-fjerne-kattepisslukt-fra-sofa/): Effektive metoder som faktisk fungerer.
+- [Hvordan vaske sofa](https://møbler.com/artikler/hvordan-vaske-sofa/): Trinn-for-trinn guide for alle stofftyper.
+- [Male IKEA-møbler](https://møbler.com/artikler/hvordan-male-ikea-mobler/): Fra kjedelig til unikt.
+- [Plassere teppe under sofa](https://møbler.com/artikler/hvordan-plassere-teppe-under-sofa/): Regler og tips fra interiørdesignere.
+- [Skandinavisk design guide](https://møbler.com/artikler/skandinavisk-design-guide/): Tidløse prinsipper for hjemmet.
+
+## Møbelbutikker i Norge
+Komplett database over 380+ møbelbutikker i 140 kommuner. Data hentet fra Brønnøysundregistrene (NACE 47.551).
+
+Største byer med møbelbutikker:
+- [Oslo](https://møbler.com/mobelbutikker/oslo/): 51 butikker
+- [Bergen](https://møbler.com/mobelbutikker/bergen/): 15 butikker
+- [Stavanger](https://møbler.com/mobelbutikker/stavanger/): 13 butikker
+- [Trondheim](https://møbler.com/mobelbutikker/trondheim/): 12 butikker
+- [Tønsberg](https://møbler.com/mobelbutikker/tonsberg/): 11 butikker
+- [Bærum](https://møbler.com/mobelbutikker/baerum/): 10 butikker
+- [Kristiansand](https://møbler.com/mobelbutikker/kristiansand/): 9 butikker
+- [Drammen](https://møbler.com/mobelbutikker/drammen/): 9 butikker
+
+## Datakilder
+Butikkdata er hentet fra Enhetsregisteret i Brønnøysund (brreg.no), filtrert på NACE-kode 47.551 (Detaljhandel med møbler, gjelder også madrasser).
+
+## Kontakt
+Nettside: https://møbler.com
