@@ -4,6 +4,7 @@ import { guides } from '@/data/guides';
 import { butikker, getAllKommuner } from '@/data/butikker';
 import { cityConfigs } from '@/data/cities';
 import HeroSearch from '@/components/HeroSearch';
+import AuroraBackground from '@/components/AuroraBackground';
 
 export const metadata: Metadata = {
   title: 'møbler.com — Norges møbelguide | Kjøpsguider, butikker og inspirasjon',
@@ -54,6 +55,7 @@ export default function HomePage() {
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}/>
 
     {/* HERO */}
+    <AuroraBackground>
     <section className="hero hero--centered">
       <div className="container">
         <span className="hero__badge">Norges møbelguide</span>
@@ -70,6 +72,7 @@ export default function HomePage() {
         </div>
       </div>
     </section>
+    </AuroraBackground>
 
     {/* KATEGORIER */}
     <section className="section">
