@@ -12,13 +12,13 @@ export const metadata: Metadata = {
 
 const categories = [
   { name: 'Sofa', href: '/guide/beste-sofa/', icon: 'sofa', desc: 'Kjøpsguide og tips' },
-  { name: 'Seng & madrass', href: '/guide/beste-seng/', icon: 'bed', desc: '5 størrelsesguider' },
+  { name: 'Seng og madrass', href: '/guide/beste-seng/', icon: 'bed', desc: '5 størrelsesguider' },
   { name: 'Spisebord', href: '/guide/beste-spisebord/', icon: 'table', desc: 'Materialer og mål' },
   { name: 'Skrivebord', href: '/guide/beste-skrivebord/', icon: 'desk', desc: 'Hjemmekontor' },
   { name: 'Lenestol', href: '/guide/beste-lenestol/', icon: 'chair', desc: 'Recliner og mer' },
   { name: 'Hagemøbler', href: '/guide/beste-hagemobler/', icon: 'garden', desc: 'Sesongguide' },
   { name: 'Madrass', href: '/guide/beste-madrass/', icon: 'mattress', desc: 'For bedre søvn' },
-  { name: 'Sovesofa', href: '/guide/beste-sovesofa/', icon: 'sofabed', desc: 'Sofa + seng i ett' },
+  { name: 'Sovesofa', href: '/guide/beste-sovesofa/', icon: 'sofabed', desc: 'Sofa og seng i ett' },
 ];
 
 function CatIcon({ type }: { type: string }) {
@@ -54,24 +54,24 @@ export default function HomePage() {
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}/>
 
     {/* HERO */}
-    <section className="hero">
+    <section className="hero hero--centered">
       <div className="container">
-        <span className="hero__label">Norges møbelguide</span>
-        <h1>Finn de perfekte <em>møblene</em> for hjemmet ditt</h1>
-        <p className="hero__subtitle">
+        <span className="hero__badge">Norges møbelguide</span>
+        <h1>Finn de perfekte<br/><em>møblene</em> for hjemmet</h1>
+        <p className="hero__subtitle hero__subtitle--centered">
           Uavhengige kjøpsguider, komplett butikkoversikt og praktiske tips
-          som hjelper deg å ta bedre valg — uten å bruke mer enn du trenger.
+          som hjelper deg å ta bedre valg.
         </p>
         <HeroSearch />
-        <div className="hero__stats">
-          <div><span className="hero__stat-number">{butikker.length}+</span><span className="hero__stat-label">Møbelbutikker</span></div>
+        <div className="hero__stats hero__stats--centered">
+          <div><span className="hero__stat-number">{butikker.length}+</span><span className="hero__stat-label">Butikker</span></div>
           <div><span className="hero__stat-number">{kommuner.length}</span><span className="hero__stat-label">Kommuner</span></div>
-          <div><span className="hero__stat-number">{guides.length}+</span><span className="hero__stat-label">Guider og artikler</span></div>
+          <div><span className="hero__stat-number">{guides.length}+</span><span className="hero__stat-label">Guider</span></div>
         </div>
       </div>
     </section>
 
-    {/* KATEGORIER — full width, big cards */}
+    {/* KATEGORIER */}
     <section className="section">
       <div className="container">
         <div className="section__header">
@@ -79,7 +79,7 @@ export default function HomePage() {
           <h2 className="section__title">Hva leter du etter?</h2>
         </div>
         <div className="category-grid category-grid--large">
-          {categories.map((cat, i) => (
+          {categories.map(cat => (
             <Link key={cat.name} href={cat.href} className="category-card category-card--large animate-in">
               <div className="category-card__icon"><CatIcon type={cat.icon}/></div>
               <div>
@@ -92,7 +92,7 @@ export default function HomePage() {
       </div>
     </section>
 
-    {/* KJØPSGUIDER — editorial layout */}
+    {/* KJØPSGUIDER */}
     <section className="section section--warm">
       <div className="container">
         <div className="section__header">
