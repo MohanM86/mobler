@@ -353,17 +353,17 @@ img { max-width:100%; height:auto; display:block; }
 /* ================================================================
    AURORA BACKGROUND — light mode
    ================================================================ */
-.aurora-hero { position:relative; overflow:hidden; }
-.aurora-bg { position:absolute; inset:-10px; pointer-events:none; overflow:hidden; opacity:0.50; will-change:transform; filter:blur(10px) invert; }
+.aurora-hero { position:relative; overflow:hidden; background:#fafafa; }
+.aurora-bg { position:absolute; inset:-10px; pointer-events:none; overflow:hidden; opacity:0.25; will-change:transform; filter:blur(12px) invert; }
 .aurora-bg::after { content:''; position:absolute; inset:0; background-image:
   repeating-linear-gradient(100deg,#fff 0%,#fff 7%,transparent 10%,transparent 12%,#fff 16%),
-  repeating-linear-gradient(100deg,#3b82f6 10%,#a5b4fc 15%,#93c5fd 20%,#ddd6fe 25%,#60a5fa 30%);
+  repeating-linear-gradient(100deg,#93c5fd 10%,#c7d2fe 15%,#bfdbfe 20%,#e0e7ff 25%,#93c5fd 30%);
   background-size:200% 100%; background-attachment:fixed; mix-blend-mode:difference; animation:auroraShift 60s linear infinite; }
 .aurora-bg-inner {
   position:absolute; inset:-10px;
   background-image:
     repeating-linear-gradient(100deg,#fff 0%,#fff 7%,transparent 10%,transparent 12%,#fff 16%),
-    repeating-linear-gradient(100deg,#3b82f6 10%,#a5b4fc 15%,#93c5fd 20%,#ddd6fe 25%,#60a5fa 30%);
+    repeating-linear-gradient(100deg,#93c5fd 10%,#c7d2fe 15%,#bfdbfe 20%,#e0e7ff 25%,#93c5fd 30%);
   background-size:300% 200%; background-position:50% 50%;
   mask-image:radial-gradient(ellipse at 100% 0%,black 10%,transparent 70%);
   -webkit-mask-image:radial-gradient(ellipse at 100% 0%,black 10%,transparent 70%);
